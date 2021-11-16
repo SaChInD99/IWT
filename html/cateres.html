@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IMAGINE wedding planners</title>
+<link rel="stylesheet" type="text/css" href="../css/stylessac.css"/>
+<script src="../js/Myjavascript2.js"></script
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.container {
+  position: relative;
+  max-width: 2500px;
+  margin: 10 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.3); 
+  color: #f1f1f1;
+  width: 50%;
+  padding: 150px;
+}
+h4 {
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+  h2 {
+  text-shadow: 2px 2px #FF0000;
+}
+
+</style>
+</head>
+<body>
+<div class="productdata" id="tbl" style="border-style: groove; border-color: #04454B;">
+        <table border="0" width="100%" class="table1">
+            <tr>
+                <th width="17%" align="left"><img class="logo" src="../images/logomain.png" width="200px" height="150px"></th>
+                <th align="left"><h1 class="topic"><b>Wedding Planners</b></h1></th>
+                <th width="33%" align="right">
+                    <a href="../php/index.php"><button class="b1"><b class="b3">Log-in</b></button></a><br /><br />
+                    <a href="../php/Signup1.html"><button class="b1"><b class="b3">Sign-in</b></button></a>
+                </th>
+            </tr>
+        </table>
+		<br>
+        <hr class="hl" />
+        <ul class="menu">
+            <li class="left"><a href="homepage.html"><b class="b2">Home</b></a></li>
+            <li class="left"><a href="Content.html"><b class="b2">Content</b></a></li>
+            <li class="left"><a href="contactindex.html"><b class="b2">Contact us</b></a></li>
+            <li class="left"><a href="About_Us.html"><b class="b2">About us</b></a></li>
+        </ul><br><br>
+    </div>
+	<center>
+	
+<h2 style="color:red">ADD YOUR REQUIREMENT DETAILES</h2>
+   <p><b>Click Bellow Button</b></p>
+<a href="../php/requirement1.php" class="button">REQUIREMENT FORM</a>
+ </center> 
+<br>
+<center>
+<div class="container">
+  <img src="../images/cate1.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+  <center>
+    <h1>WEDDING CATERES</h1>
+    <p><h4>Catering is important as a large part of any event or party revolves around food. The food you present to your guests can either make or break your event.so choose the best amoung the best.</h4></p>
+  <img src="../images/imag2.png" alt="party" style="width:100%;"></center></div>
+</center>
+      <div id="calendar-container">
+            <div id="calendar-header">
+                <span id="calendar-month-year"></span>
+            </div>
+			<center>
+            <div id="calendar-dates">
+			</div>
+			</center>
+		<img src="../images/c1.jpg" alt="Notebook" style="width:20%;">
+        </div>
+		 <center>
+		 <br><br>
+		<div class="button">
+  <button class="button button1" type="button" id="button1" onclick="loadData('button1')"><b> SRI LANKAN FOODS</b></button>
+  <button class="button button2" type="button" id="button2" onclick="loadData('button2')"><b>INDIAN FOODS</b></button>
+  <button class="button button3" type="button" id="button3" onclick="loadData('button3')"> <b>ITALIAN FOODS</b></button>
+  <button class="button button4" type="button" id="button4" onclick="loadData('button4')"><b> INSIDE COLOMBO AREA</b></button>
+  <button class="button button5" type="button" id="button5" onclick="loadData('button5')"> <b>OUTSIDE COLOMBO AREA</b></button>
+  <button class="button button6" type="button" id="button6" onclick="PriceHigher()"><b>PRIZE HIGHER THAN Rs 2000 PER PLATE<b></button>
+  <button class="button button7" type="button" id="button7" onclick="PriceLower()"> <b>PRIZE LOWER THAN Rs 2000 PER PLATE</b></button>
+
+ 
+  </div>
+  <br>
+  <img id="img1" src="">
+   
+    <p class="text1" id="para"></p>
+  <br><br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+	<img src="../images/pan.jpg" alt="cater" style="width:100%;">
+      <h2 style="color:red">Pan Kendiya Wedding Caterers</h2>
+      <p > 877/2, Athurugiriya Road, Malabe, Colombo, LK Sri Lanka
+Contacts phone: +94 77 762 9408</p>
+      <p></p>
+	  <h4><a href="">  </a></h4>
+	  <p style="color:#991f00" > Ratings:</p>
+	  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <br><br><br>
+  <p><i>Price per plate= Rs 1500.00 - RS 2000.00</i></p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+	<img src="../images/CC.jpg" alt="cater" style="width:100%;">
+      <h2 style="color:orange">The Colombo Catering</h2>
+      <p>
+Address: 147 AB10, Colombo 01500
+Phone: 077 767 8299</p>
+      <p></p>
+	  <h4><a href="">  </a></h4>
+	  <br>
+	  <p style="color:#991f00" > Ratings:</p>
+	  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <br><br><br><br>
+  <p><i>Price per plate= Rs 2000.00 and above</i></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+	<img src="../images/TC.jpg" alt="Tasty" style="width:100%;">
+      <h2 style="color:blue">Tasty Caterers</h2>
+      <p>Location:
+Tasty Caterers
+No. 88,
+Fife Road,
+Colombo 05</p>
+<br>
+      <p><i>With the rising trend of unconventional wedding receptions in exotic locations, Tasty Caterers provides the ideal solution for a tailored menu and exceptional experience.</i></p>
+    <h4><a href="https://www.tastycaterers.lk/"> TASTY CATERERS </a></h4>
+	<br>
+	  <p style="color:#991f00" > Ratings:</p>
+	  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <br><br><br><br>
+  <p><i>Price per plate=Rs 1500.00 - Rs 2000.00</i></p>
+  </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="card">
+	<img src="../images/PT.png" alt="party" style="width:100%;">
+      <h2 style="color:#ff66cc">Party Treats</h2>
+      <p>Party Treats Lanka (Pvt) Ltd.
+No. 19/1, Salmal Mawatha,
+Nedimala, Dehiwala.
+Sri Lanka
+Tel : +94 112 729988
+Email : info@partytreats.lk</p>
+<br>
+      <p><i>We at Party Treats have over 30 years of experience in the art of making the finest wedding cakes and love cakes. All cakes made out of the finest ingredients by our well trained and committed skilled workforce</i></p>
+    <h4><a href="http://partytreats.lk/"> PARTY TREATS </a></h4>
+	<br>
+	  <p style="color:#991f00" > Ratings:</p>
+	  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <br><br><br><br>
+  <p><i>Price range = Rs 3000.00 and above</i></p>
+	</div>
+  </div>
+</div>
+<br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+	<img src="../images/GC.jpg" alt="GALLE" style="width:100%;">
+      <h2 style="color:#ccff33">Galle Cateres</h2>
+      <p>
+0114 200 926
+info.gallecaterers@gmail.com</p>
+<br>
+      <p><i>We undertake orders for any occation and We Prepare Sri Lanka, Indian, Pakistani and Chinese Menu Etc by experienced Chefs.</i></p>
+    <h4><a href="https://www.facebook.com/GalleCaterers/"> GALLE CATERES </a></h4>
+	<br>
+	  <p style="color:#991f00" > Ratings:</p>
+	  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <br><br><br><br>
+  <p><i>Price per plate= Rs 2000.00 and above</i></p>
+	</div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+	<img src="../images/SP.jpg" alt="SPONGE" style="width:100%;">
+      <h2 style="color:#666600">Sponge</h2>
+      <p>Sponge Pastry Shop (Pvt.) Ltd. 347, Galle Road, Colombo 03, Sri Lanka. Tel: (+94) 112573321, (+94) 112574299</p>
+	  <br>
+      <p><i>With a dedicated and friendly staff of over 65 men and women, we strive to provide the best quality food and service always. Our menu currently consists of a diverse selection from sweets, cakes & savories to burgers, rice & noodles among many others.
+</i></p>
+    <h4><a href="https://www.sponge.lk/Home"> SPONGE </a></h4>
+	<br>
+	  <p style="color:#991f00" > Ratings:</p>
+	  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <br><br><br><br>
+  <p><i>Price per plate=Rs 900.00 and above</i></p>
+	</div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+	<img src="../images/KC.jpg" alt="Kandy" style="width:100%;">
+      <h2 style="color:#009900">Kandy Catering Service And Supplier's</h2>
+      <p>No 94, Hiddawula, Handessa, Kandy.
+Kandy, Sri Lanka 20480
+
+071 835 8353</p>
+<br>
+      <p></p>
+    <h4><a  href="https://www.facebook.com/Kandy-Catering-Service-And-Suppliers-415463068917174/?ref=page_internal"> Kandy Catering Service And Supplier's</a></h4>
+	
+	<br>
+	  <p style="color:#991f00" > Ratings:</p>
+	  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <br><br><br><br>
+  <p><i>Price per plate=Rs 1500.00- Rs 2000.00</i></p>
+	</div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+	<img src="../images/SAR.png" alt="Sarath" style="width:100%;">
+      <h2 style="color:#808000">Sarath Caterers</h2>
+      <p>No. 712/1, New Kandy Road,
+Waduwegama.
+
+011 5 23 50 30</p>
+	  <br>
+      <p><i>Our experience along with a wide range of cuisines and styles of events for more than 3000 guests, ensures we have the flexibility and capability to make your occasion a success. Attention to detail and constant communication with our clients ensures that your event day is a memorable occasion for all the right reasons.</i></p>
+    <h4><a href="https://www.sarathcaterers.lk/"> Sarath Cateres </a></h4>
+  
+  <br>
+	  <p style="color:#991f00" > Ratings:</p>
+	  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <br><br><br><br>
+  <p><i>Price per plate= Rs 500.00 and above</i></p>
+  </div>
+</div>
+<br>
+<br>
+
+
+       
+
+	<center>
+	<br>
+<h1 style="color:red">ADD YOUR REQUIREMENT DETAILES</h1>
+<p><b>Click Bellow Button</b></p>
+<a href="../php/requirement1.php" class="button">REQUIREMENT FORM</a>
+ </center> 
+ 
+ 
+ 
+
+       
+       
+	   
+       
+    
+     
+
+  <p>.</p>
+  <br><br>
+<div class="productdata" id="tbl" style="border-style: groove; border-color: #04454B;">
+        <table width="100%">
+           <tr><td><b>
+                copyright@2020 Imagine Wedding planning Pvt.Ltd.All rights reserved<br />
+                Payment method via<br />
+                <a href="https://courseweb.sliit.lk/login/index.php">click here to view registered organizations.</a><br />
+                <img src="../images/i4.png" width="180px" />
+            </b></td>
+            <td align="right">
+                <h2>Follow us on
+                <a href="https://www.facebook.com/login/"><img src="../images/fi1.png" width="40px" /></a>
+                <br />
+                <a href="https://www.google.com/search?ei=_0xwX6aSB5qU4-EPqMK6yA4&q=youtube&oq=yo&gs_lcp=CgZwc3ktYWIQARgAMgoIABCxAxCDARBDMgQIABBDMgcIABCxAxBDMgQIABBDMgQIABBDMgIIADIFCAAQsQMyBQgAELEDMgUILhCxAzIFCAAQsQM6BAgAEEc6CwgAELEDEIMBEJECOggIABCxAxCDAToCCC5QtApYqxRg-yNoAXACeAOAAdYBiAH1CpIBBTAuOC4xmAEAoAEBqgEHZ3dzLXdperABAMgBCMABAQ&sclient=psy-ab"><img src="../images/fi3.png" width="40px" /></a>
+                <br />
+                <a href="https://www.instagram.com/?hl=en"><img src="../images/fi2.png" width="40px" /></a>
+                <br />
+                <a href="https://twitter.com/login?lang=en"><img src="../images/fi4.png" width="40px" /></a></h2>
+            </td>
+            </tr>
+        </table>
+    </div>
+
+	</body>
+</html>

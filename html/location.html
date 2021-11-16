@@ -1,0 +1,177 @@
+<html>
+<head>
+    <title>IMAGINE wedding planners</title>
+    <link rel="stylesheet" href="../css/location_css.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="productdata" id="tbl" style="border-style: groove; border-color: #04454B;">
+        <table border="0" width="100%" class="table1">
+            <tr>
+                <th width="17%" align="left"><img class="logo" src="../images/logomain.jpeg" width="200px" height="150px"></th>
+                <th align="left"><h1 class="topic"><b>Wedding Planners</b></h1></th>
+                <th width="33%" align="right">
+                    <a href="../php/index.php"><button class="b1"><b class="b3">Log-in</b></button></a><br /><br />
+                    <a href="../php/Signup1.html"><button class="b1"><b class="b3">Sign-in</b></button></a>
+                </th>
+            </tr>
+        </table>
+        <hr class="hl" />
+        <ul class="menu">
+            <li class="left"><a href="homepage.html"><b class="b2">Home</b></a></li>
+            <li class="left"><a href="Content.html"><b class="b2">Content</b></a></li>
+            <li class="left"><a href="contactindex.html"><b class="b2">Contact us</b></a></li>
+            <li class="left"><a href="About_Us.html"><b class="b2">About us</b></a></li>
+        </ul>
+        <br><br>
+    </div>
+
+
+    <div id="selectlocation">
+        <h4> Select Location </h4>
+
+    </div>
+
+
+    <img src="../images/bbb.jpg" width="100%" />
+    <br /><br /><br />
+    <div id="venue">
+        <b> Technically, a wedding venue is simply a place where you can host a wedding. ... We will look at both types of wedding venues, traditional and non-traditional, (Traditional meaning what everyone typically uses) with a focus on traditional.There are the people that you must have in attendance (like close family and friends), and the people you'd like to have if you can. Your wedding venue should have enough space to at least accommodate that first group.A wedding reception is a party usually held after the completion of a marriage ceremony as ... Typical locations for wedding celebrations now include hotel ballrooms<br />
+    </div>
+    <br /><br /><br />
+
+    <h1><b>Select Location Type</b></h1>
+    <select name="select Location" style="width: 250px;height:60px" ;>
+        <option value="Select Location Type" selected="selected"><b>Select Location Type</b></option>
+        <option value="Indoor">Indoor</option>
+        <option value="Indoor">Outdoor</option>
+    </select>
+
+    <br /><br /><br />
+    <table width="100%">
+        <tr>
+            <th align="left"><h1>Outdoor</h1></th>
+            <th align="left"><h1>Indoor</h1></th>
+        </tr>
+        <tr>
+            <td><table><tr><td><img src="../images/b.jpg" width="180px" /></td><td><img src="../images/c.jpg" width="180px" /></td><td><img src="../images/d.jpg" width="180px" /></td></tr></table></td>
+            <td><table><tr><td><img src="../images/12.jpg" width="180px" height="120px" /></td><td><img src="../images/23.jpg" width="180px" /></td><td><img src="../images/34.jpg" width="180px" height="120px" /></td></tr></table></td>
+        </tr>
+        <tr>
+            <div id="intro">
+                <td><p style="color:black;font-size:20px">A wedding is a ceremony where two people are united in marriage.<br /> Wedding traditions and customs vary greatly between cultures, ethnic<br /> groups, religions,countries,and social classes. Most wedding ceremonies <br />involve an exchange of marriage vows by a couple,presentation of a<br /> gift, and a public proclamation of marriage by an authority figure. </p></td>
+                <td><p style="color:black;font-size:20px">While some are intimidated by decorations, indoor weddings are <br />great for those who want to embrace them! Choosing an indoor wedding <br />venue is an easy way to highlight your wedding theme. An indoor space <br />lets you choose your backdrop, aisle flowers,overhangs, and more without<br /> the worry of your decorations becoming damaged by the outside.</p></td>
+            </div>
+        </tr>
+    </table>
+    <p id="para1"></p><br />
+
+
+    <button id="btn2" onclick="loadData('btn2')" class="b" style="width:250px;height:50px">    Condition in hall  </button><br />
+    <table>
+        <tr>
+            <td><img src="" id="img1"></td>
+            <td><img src="" id="img2"></td>
+            <td><img src="" id="img3"></td>
+            <td><img src="" id="img4"></td>
+            <td><img src="" id="img5"></td>
+        </tr>
+    </table>
+    <p id="para2"></p><br />
+
+    <h1 class="name">Suitable Location For Time Period </h1>
+    <!-- <table width="100%">
+        <tr>
+
+            <th aligh="left"><button id="btn3" onclick="loadData('btn3')" class="b" style="width:250px;height:50px">    Day </button> </th>
+            <th aligh="left"><button id="btn4" onclick="loadData('btn4')" class="b" style="width:250px;height:50px">    Night </button> </th>
+        </tr>
+        <tr>
+            <td><table><tr><td><img src="" id="img" class="image"></td><td><img src="" id="img7" class="image"></td><td><img src="" id="img8" class="image"></td></tr></table></td>
+
+            <td><table><tr><td><img src="" id="img9" class="image"></td><td><img src="" id="img10" class="image"></td><td><img src="" id="img11" class="image"></td></tr></table></td>
+
+        </tr>
+    </table>-->
+    <div class="day-night">
+        <div class="div-button">
+            <button id="btn3" class="b" style="width: 250px; height: 50px">
+                Day
+            </button>
+            <button id="btn4" class="b" style="width: 250px; height: 50px">
+                Night
+            </button>
+        </div>
+        <div class="div-image">
+            <div id="imageData1" class="imageData1"><img class="image imageRow1" src="../images/9.jpg" alt=""><img class="image imageRow1" src="../images/99.jpg" alt=""><img class="image imageRow1" src="../images/999.jpg" alt=""></div>
+            <div id="imageData2" class="imageData1"><img class="image imageRow2" src="../images/0.jpg" alt=""><img class="image imageRow2" src="../images/00.jpg" alt=""><img class="image imageRow2" src="../images/000.jpg" alt=""></div>
+        </div>
+    </div>
+    <p id="para2"></p><br />
+
+    <h1 class="name">Amount Of Participators</h1>
+    <table align="left" width="60%">
+        <tr>
+            <td>
+                <input type="radio" id="100-200" name="g" value="100-500">
+                <label for="m">100-200</label>
+            </td>
+            <td>
+                <input type="radio" id="200-300" name="g" value="200-300">
+                <label for="f">200-300</label>
+            </td>
+            <td>
+                <input type="radio" id="300-400" name="g" value="300-400">
+                <label for="m">300-400</label>
+            </td>
+            <td>
+                <input type="radio" id="400-500" name="g" value="400-500">
+                <label for="f">400-500</label>
+            </td>
+        </tr>
+    </table>
+    <br /><br />
+
+    <div class="productdata" id="tbl" style="border-style: groove; border-color: #04454B;">
+        <table width="100%">
+            <tr>
+                <td>
+                    <b>
+                        copyright@2020 Imagine Wedding planning Pvt.Ltd.All rights reserved<br />
+                        Payment method via<br />
+                        <a href="https://courseweb.sliit.lk/login/index.php">click here to view registered organizations.</a><br />
+                        <img src="../images/i4.jpeg" width="180px" />
+                    </b>
+                </td>
+                <td align="right">
+                    <h2>
+                        Follow us on
+                        <a href="https://www.facebook.com/login/"><img src="../images/fi1.jpeg" width="40px" /></a>
+                        <br />
+                        <a href="https://www.google.com/search?ei=_0xwX6aSB5qU4-EPqMK6yA4&q=youtube&oq=yo&gs_lcp=CgZwc3ktYWIQARgAMgoIABCxAxCDARBDMgQIABBDMgcIABCxAxBDMgQIABBDMgQIABBDMgIIADIFCAAQsQMyBQgAELEDMgUILhCxAzIFCAAQsQM6BAgAEEc6CwgAELEDEIMBEJECOggIABCxAxCDAToCCC5QtApYqxRg-yNoAXACeAOAAdYBiAH1CpIBBTAuOC4xmAEAoAEBqgEHZ3dzLXdperABAMgBCMABAQ&sclient=psy-ab"><img src="../images/fi3.jpeg" width="40px" /></a>
+                        <br />
+                        <a href="https://www.instagram.com/?hl=en"><img src="../images/fi2.jpeg" width="40px" /></a>
+                        <br />
+                        <a href="https://twitter.com/login?lang=en"><img src="../images/fi4.jpeg" width="40px" /></a>
+                    </h2>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="../js/new.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
