@@ -1,0 +1,153 @@
+body{
+    background-color:#cccccc;
+    background-size: 100%;
+}
+img.logo{
+display: block;
+}
+h3.h {
+    font-family: Pristina;
+}
+hr.hl{
+border: 1px solid #800000;
+}
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.left{
+float: left;
+}
+li a {
+    font-family: whitesmoke;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+button.b {
+    background-color: #C79303;
+    display: block;
+    color: #04454B;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+}
+button.b:hover {
+    background-color: #2D3436;
+}
+button.b1 {
+    background-color: #800000;
+    text-align: center;
+}
+button.b1:hover{
+    text-decoration:underline;
+}
+    li a:hover {
+        background-color: #800000;
+    }
+
+b.b3{
+    color:whitesmoke;
+}
+b.b3:hover {
+    color: black;
+}
+
+b.b2:hover{
+    color:whitesmoke;
+}
+.productdata {
+    background-image: url(../images/header2.jpg);
+    padding: 5px;
+}
+
+.main{
+    background-image: url(../images/i3.jpg)
+}
+
+.main1{
+    font-family:Arial;
+    font-size:120px;
+    color:whitesmoke;
+}
+
+#tbl{
+margin-top:15px;
+margin-bottom:10px;
+margin-left:10px;
+margin-right:10px;
+}
+
+.sign{
+    float:right;
+    height:100%;
+}
+
+.sign a{
+    height:100%;
+    display:table;
+    float:left;
+}
+
+h1.topic{
+    font-weight:100;
+    font-family:Papyrus;
+    color:#800000;
+    font-size:40px;
+    font-weight:100;
+}
+table.p1{
+}
+
+.t1{
+    font-family:Arial;
+}
+.btn_text:hover{
+    color:whitesmoke;
+}
+.login
+{
+    width:382px;
+    overflow:hidden;
+    margin:auto;
+    margin:20 0 0 450px;
+    padding:80px;
+    background-color: whitesmoke;
+    border radious:15px;
+    border :solid;
+
+
+}
+#uname
+{
+    width:300px;
+    height:30px;
+    border:none;
+    border radius: 3px;
+    padding-left: 8px
+}
+#pword{
+    width:300px;
+    height:30px;
+    border:none;
+    border radius: 3px;
+    padding-left: 8px
+}
+#log{
+    width:300px;
+    height:30px;
+    border:none;
+    border radius: 17px;
+    padding-left: 7px
+    color:blue;
+}
+h1.h1{
+    
+    text-align:center;
+
+}

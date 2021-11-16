@@ -1,0 +1,187 @@
+body {
+    background-color: #cccccc;
+    background-size: 100%;
+}
+
+img.logo {
+    display: block;
+}
+
+h3.h {
+    font-family: Pristina;
+}
+
+hr.hl {
+    border: 1px solid #800000;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+li a {
+    font-family: whitesmoke;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+button.b {
+    background-color: #800000;
+    display: block;
+    color: #04454B;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+}
+
+    button.b:hover {
+        background-color: #ADD8E6;
+    }
+
+button.b1 {
+    background-color: #800000;
+    text-align: center;
+}
+
+    button.b1:hover {
+        text-decoration: underline;
+    }
+
+li a:hover {
+    background-color: #800000;
+}
+
+b.b3 {
+    color: whitesmoke;
+}
+
+    b.b3:hover {
+        color: black;
+    }
+
+b.b2:hover {
+    color: whitesmoke;
+}
+
+/* day-night style start */
+
+.day-night{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn3{
+    margin-left: 6%;
+}
+
+#btn4{
+    margin-right: 6%;
+}
+
+.div-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.imageData1{
+    width: 50%;
+    display: flex;
+}
+
+.imageData2{
+    width: 50%;
+    display: flex;
+}
+
+.image{
+    width: 200px;
+    margin: 10px;
+}
+
+/* day-night style end */
+
+.productdata {
+    background-image: url(../images/header2.jpeg);
+    padding: 5px;
+}
+
+.main {
+    background-image: url(../images/i3.jpg)
+}
+
+.main1 {
+    font-family: Arial;
+    font-size: 120px;
+    color: whitesmoke;
+}
+
+#tbl {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sign {
+    float: right;
+    height: 100%;
+}
+
+    .sign a {
+        height: 100%;
+        display: table;
+        float: left;
+    }
+
+h1.topic {
+    font-weight: 100;
+    font-family: Papyrus;
+    color: #800000;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.t1 {
+    font-family: Arial;
+}
+
+.btn_text:hover {
+    color: whitesmoke;
+}
+#selectlocation {
+    font-size: 45px;
+    font-family: 'Acme', sans-serif;
+    text-align:center;
+    color:maroon;
+}
+#venue {
+    font-family: 'Kanit', sans-serif;
+    font-size:20px;
+
+}
+#intro{
+    color:maroon;
+}
+.form{
+    background-color:whitesmoke;
+    width:30%;
+    height:70%;
+}
